@@ -946,6 +946,7 @@ section {
 .contact-card:hover {
     transform: translateY(-10px);
     border-color: var(--color-accent-primary);
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
 }
 
 .contact-card:hover::before {
@@ -963,6 +964,7 @@ section {
     border-radius: var(--radius-full);
     font-size: var(--text-2xl);
     color: var(--color-bg-primary);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
 }
 
 .contact-card h3 {
