@@ -995,12 +995,12 @@ section {
 }
 
 .contact-card-disabled:hover {
-    transform: none;
-    border-color: rgba(255, 255, 255, 0.05);
+    transform: translateY(-10px);
+    border-color: var(--color-accent-primary);
 }
 
-.contact-card-disabled::before {
-    display: none;
+.contact-card-disabled:hover::before {
+    opacity: 0.1;
 }
 
 .contact-card-disabled .contact-icon {
