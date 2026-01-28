@@ -988,6 +988,25 @@ section {
     transform: translateX(5px);
 }
 
+/* Disabled contact card (for cards not yet configured) */
+.contact-card-disabled {
+    cursor: default;
+    opacity: 0.6;
+}
+
+.contact-card-disabled:hover {
+    transform: none;
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+.contact-card-disabled::before {
+    display: none;
+}
+
+.contact-card-disabled .contact-icon {
+    opacity: 0.7;
+}
+
 .availability {
     display: inline-flex;
     align-items: center;
