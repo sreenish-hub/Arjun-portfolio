@@ -1378,6 +1378,18 @@ section {
     box-shadow: var(--shadow-glow);
 }
 
+/* Disabled social icons (no external links) */
+.social-icon-disabled {
+    cursor: default;
+    opacity: 0.4;
+}
+
+.social-icon-disabled:hover {
+    background: rgba(255, 255, 255, 0.03);
+    transform: none;
+    box-shadow: none;
+}
+
 .footer-divider {
     height: 1px;
     background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
